@@ -1,28 +1,14 @@
-import EventComponent from "./component/EventComponent";
-import EventComponent2 from "./component/EventComponent2";
-import EventComponentQ2 from "./component/EventComponentQ2";
+import HookEffect from "./hook/HookEffect";
+
 
 
 function App(){
 
     return(
         <>
-            <EventComponentQ2/>
-
-            <hr/>
-
-            <EventComponent/>
-
-            <hr/>
-
-            <EventComponent2/>
-
-
+            <HookEffect/>
         </>
-
     )
-
-
 }
 
 export default App;
