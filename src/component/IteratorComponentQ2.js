@@ -40,7 +40,7 @@ function IteratorComponentQ2(){
         console.log(e.target.value)
         let newData=data.filter(data=>{return e.target.value===data.type})
         setDat(newData);
-    }
+    } 
 
     const handleVal = (e)=>{
         setSearch(e.target.value);

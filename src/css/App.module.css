@@ -1,0 +1,15 @@
+
+
+.appWrap{
+    background-color:pink;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+
+/* .tilte이라는 이름으로 바로 사용가능 */
+:global .title{
+    color: red;
+}
